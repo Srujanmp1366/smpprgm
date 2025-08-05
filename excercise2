@@ -1,0 +1,8 @@
+void main(){
+  int totalbill,persons;
+  double result;
+  totalbill=500;
+  persons=5;
+  result=totalbill/persons;
+  print("Individual amount to be paid is $result");
+}
