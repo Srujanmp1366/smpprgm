@@ -1,8 +1,12 @@
+import 'dart:io';
 void main(){
-  int totalbill,persons;
   double result;
-  totalbill=500;
-  persons=5;
+  //Input values
+  print("Enter Total Bill");
+  int? totalbill=int.parse(stdin.readLineSync()!);
+  print("Enter total persons");
+  int? persons=int.parse(stdin.readLineSync()!);
+  //Compute result
   result=totalbill/persons;
   print("Individual amount to be paid is $result");
 }
