@@ -1,0 +1,25 @@
+void main() {
+  //Variables for calculation
+  int costperkilo,totalcost,weight;
+  String destination='XYZ';
+  weight=10;
+  //Compute total cost
+  switch(destination){
+    case 'XYZ':
+      costperkilo=5;
+      totalcost=costperkilo*weight;
+      print("Shipping cost is $totalcost");
+    case 'ABC':
+      costperkilo=7;
+      totalcost=costperkilo*weight;
+      print("Shipping cost is $totalcost");
+    case 'PQR':
+      costperkilo=10;
+      totalcost=costperkilo*weight;
+      print("Shipping cost is $totalcost");
+    default:
+      print("Invalid entry");
+      
+  }
+  
+}
