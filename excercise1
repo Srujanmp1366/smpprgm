@@ -12,14 +12,17 @@ void main(){
     case 'XYZ':
       costperkilo=5;
       totalcost=costperkilo*weight;
+      print("Cost per kilogram is $costperkilo");
       print("Shipping cost is $totalcost");
     case 'ABC':
       costperkilo=7;
       totalcost=costperkilo*weight;
+      print("Cost per kilogram is $costperkilo");
       print("Shipping cost is $totalcost");
     case 'PQR':
       costperkilo=10;
       totalcost=costperkilo*weight;
+      print("Cost per kilogram is $costperkilo");
       print("Shipping cost is $totalcost");
     default:
       print("Invalid entry");
