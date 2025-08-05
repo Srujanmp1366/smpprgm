@@ -1,8 +1,12 @@
-void main() {
+import 'dart:io';
+void main(){
   //Variables for calculation
-  int costperkilo,totalcost,weight;
-  String destination='XYZ';
-  weight=10;
+  int costperkilo,totalcost;
+  //Input values
+  print("Enter destination");
+  String? destination=stdin.readLineSync();
+  print("Enter weight");
+  int? weight=int.parse(stdin.readLineSync()!);
   //Compute total cost
   switch(destination){
     case 'XYZ':
