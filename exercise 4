@@ -7,10 +7,8 @@ void main(){
     List<String> stringnum= inputnum.split(',').map((s)=>s.trim()).toList();
     List<String> quotenum=stringnum.map((s)=>"'$s'").toList();
     Set<String> numset=quotenum.toSet();
-    var tup=Tuple7.fromList(quotenum);
     print("List:$quotenum");
     print("Set:$numset");
-    print("Tuple:$tup");
     }
     
   }
